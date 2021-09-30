@@ -1,3 +1,24 @@
-h1 {
-    color: aqua;
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #e882b1;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+h1 { 
+    color: rgb(94, 171, 199);
 }
