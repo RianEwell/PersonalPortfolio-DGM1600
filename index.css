@@ -5,43 +5,121 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
-    color: #dddddd;
+    
 }
 
 #navbar {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  background-color: #7f3bbb;
+  background-color: #602929;
   position: fixed;
 }
 
-.nav-list {
+.navlist {
     display: flex;
     margin-right: 1rem;
     list-style-type: none;
     
+    
+    
 }
 
-.nav-list a {
+.navlist a {
     padding: 1.5rem;
     display: block;
     font-size: xx-large;
+    color: black;
+    
 }
 
-.nav-list a:hover {
-    background-color: #766e9d;
+.navlist a:hover {
+    background-color:#964c51
 }
 
 #welcome-section {
-    background-color: #6495ED;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #285467;
+    height: 45vh;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 { 
-    color: rgb(94, 171, 199);
+.project-grid {
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #66888e;
 }
+
+.project-tile {
+    margin: 1rem;
+    
+}
+
+figcaption{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    background-color: rgb(46, 82, 104);
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #contact h1 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        padding-bottom: 4rem 0;
+    }
+    #contact p {
+        font-size: x-large;
+        margin: 2rem;
+    }
+    #contact div {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
+       
+    }
+    #contact div a {
+        margin: 0 2rem;
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 2.5rem;
+        text-shadow: 2px 2px 1px #1f1f1f;
+        transition: transform 0.3s ease-out;
+        color: #ffffff;
+
+    }
+
+    #contact div a:hover {
+        transform: translatey(8px);
+        background-color: #5891a5;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.25rem;
+        background-color: #602929;
+    }
+    
