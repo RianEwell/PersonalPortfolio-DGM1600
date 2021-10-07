@@ -37,7 +37,4 @@ const myCar = {
     make: "Chevrolet",
     color: "Red",
     year: "1965",
-    
-
-
 }
