@@ -25,3 +25,10 @@ let myDecimal = 73.4 // could also call this a 'float'
 // Boolean
 
 let myBool = true;
+
+// Array
+
+let myArray = [] // this is an empty array
+
+//              0     1       2       3      4
+let myArray2 = [42, "Bob", myBool, ANSWER, true];
