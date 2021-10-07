@@ -32,3 +32,12 @@ let myArray = [] // this is an empty array
 
 //              0     1       2       3      4
 let myArray2 = [42, "Bob", myBool, ANSWER, true];
+
+const myCar = {
+    make: "Chevrolet",
+    color: "Red",
+    year: "1965",
+    
+
+
+}
