@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+}
+
+
 html {
     box-sizing: border-box;
 }
@@ -11,14 +16,32 @@ a {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  background-color: #e882b1;
+  background-color: #7f3bbb;
+  position: fixed;
 }
 
 .nav-list {
     display: flex;
     margin-right: 1rem;
     list-style-type: none;
+    
 }
+
+.nav-list a {
+    padding: 1.5rem;
+    display: block;
+    font-size: xx-large;
+}
+
+.nav-list a:hover {
+    background-color: #766e9d;
+}
+
+#welcome-section {
+    background-color: #6495ED;
+    height: 100vh;
+}
+
 h1 { 
     color: rgb(94, 171, 199);
 }
